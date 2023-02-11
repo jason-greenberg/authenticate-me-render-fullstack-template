@@ -16,17 +16,27 @@
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  width: 210px;
+  max-width: 210px;
+  width: 100%;
   border: solid 1px #DDDDDD;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 5px 15px;
   list-style: none;
   font-size: 14px;
 }
 
-.dropdown-details {
-  padding: 5px;
-  width: 100%;
+.dropdown-details,
+.dropdown-details-logged-in {
+  width: 114%;
+  height: 100%;
+  margin: 0;
+  padding: 10px 0px 10px 0px;
+  text-indent: 15px;
+  text-anchor: top;
+}
+
+.dropdown-details:hover {
+  background-color: #F7F7F7;
 }
 
 .logout-button {
@@ -37,6 +47,7 @@
   justify-content: center;
   width: 80px;
   margin-bottom: 7px;
+  padding: 4px 7px;
   font-size: 14px;
 }
 
@@ -62,7 +73,7 @@
 .user-menu-button {
   width: 77px;
   height: 42px;
-  border-radius: 20px;
+  border-radius: 30px;
   background-color: white;
   border: 1px solid #DDDDDD;
 }
