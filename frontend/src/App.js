@@ -22,7 +22,7 @@ function App() {
       {isLoaded && (
         <Switch>
           <Route path='/signup' component={SignupFormPage} />
-          <h1>HareBnB</h1>
+          <h1>Authenticate Me Template</h1>
         </Switch>
       )}
     </div>
